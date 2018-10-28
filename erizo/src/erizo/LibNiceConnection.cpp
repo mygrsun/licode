@@ -24,7 +24,7 @@ namespace erizo {
 DEFINE_LOGGER(LibNiceConnection, "LibNiceConnection")
 
 
-void cb_nice_recv(NiceAgent* agent, guint stream_id, guint component_id,
+void cb_nice_recv(NiceAgent* agent, guint stream_id, guint component_id,//ericqin libnice的回调 接受数据，包括dtls数据 srtp srtcp数据
     guint len, gchar* buf, gpointer user_data) {
   if (user_data == NULL || len == 0) {
     return;
@@ -109,7 +109,7 @@ void LibNiceConnection::close() {
   ELOG_DEBUG("%s message: closed, this: %p", toLog(), this);
 }
 
-void LibNiceConnection::onData(unsigned int component_id, char* buf, int len) {
+void LibNiceConnection::onData(unsigned int component_id, char* buf, int len) {//将ice接受到的数据封装到packet中
   IceState state;
   {
     boost::mutex::scoped_lock lock(close_mutex_);

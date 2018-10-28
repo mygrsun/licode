@@ -535,7 +535,7 @@ void WebRtcConnection::onRtcpFromTransport(std::shared_ptr<DataPacket> packet, T
   });
 }
 
-void WebRtcConnection::onTransportData(std::shared_ptr<DataPacket> packet, Transport *transport) {
+void WebRtcConnection::onTransportData(std::shared_ptr<DataPacket> packet, Transport *transport) {//ericqin 这里判断是rtcp还是rtp
   if (getCurrentState() != CONN_READY) {
     return;
   }

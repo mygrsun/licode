@@ -162,7 +162,7 @@ void DtlsTransport::onIceData(packetPtr packet) {
 
   int length = len;
   SrtpChannel *srtp = srtp_.get();
-  if (DtlsTransport::isDtlsPacket(data, len)) {
+  if (DtlsTransport::isDtlsPacket(data, len)) {//ericqin这是ssl握手相关的数据
     ELOG_DEBUG("%s message: Received DTLS message, transportName: %s, componentId: %u",
                toLog(), transport_name.c_str(), component_id);
     if (component_id == 1) {
@@ -173,7 +173,7 @@ void DtlsTransport::onIceData(packetPtr packet) {
       dtlsRtcp->read(reinterpret_cast<unsigned char*>(data), len);
     }
     return;
-  } else if (this->getTransportState() == TRANSPORT_READY) {
+  } else if (this->getTransportState() == TRANSPORT_READY) {//ericqin表示ssl握手之前已经完成。不是dtls数据就只能是srtp或srtcp
     std::shared_ptr<DataPacket> unprotect_packet = std::make_shared<DataPacket>(component_id,
       data, len, VIDEO_PACKET, packet->received_time_ms);
 
