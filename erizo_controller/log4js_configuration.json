@@ -9,7 +9,7 @@
       }
     }
   ],
-  "levels": {
+  "levels_old": {
     "AMQPER": "ERROR",
     "Client": "INFO",
     "Connection": "INFO",
@@ -23,5 +23,20 @@
     "Subscriber": "INFO",
     "RoomController": "INFO",
     "RPCPublic":"ERROR"
+  },
+  "levels_old": {
+    "AMQPER": "DEBUG",
+    "Client": "DEBUG",
+    "Connection": "DEBUG",
+    "ErizoController": "DEBUG",
+    "ErizoJS": "DEBUG",
+    "ErizoJSController": "INDEBUGFO",
+    "ErizoAgent": "DEBUG",
+    "ErizoAgentReporter": "DEBUG",
+    "EcCloudHandler": "DEBUG",
+    "Publisher": "DEBUG",
+    "Subscriber": "DEBUG",
+    "RoomController": "DEBUG",
+    "RPCPublic":"DEBUG"
   }
 }
