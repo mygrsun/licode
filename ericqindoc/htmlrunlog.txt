@@ -1,0 +1,29 @@
+root@VM-0-12-ubuntu:/home/ubuntu/licode/extras/basic_example# Cleaning basic example rooms
+BasicExample started
+GET / 200 6.681 ms - 522
+GET /script.js 200 0.900 ms - 5566
+GET /erizo.js 200 1.623 ms - 430084
+Creating token. Request body:  { username: 'user',
+  role: 'presenter',
+  room: 'basicExampleRoom',
+  type: 'erizo',
+  mediaConfiguration: 'default' }
+GET /favicon.ico 404 2.344 ms - 150
+Token created eyJ0b2tlbklkIjoiNWJkNTIzM2U0MzZkNjUyZmU1NjExMWZmIiwiaG9zdCI6IjE1MC4xMDkuNDIuMzg6ODA4MCIsInNlY3VyZSI6dHJ1ZSwic2lnbmF0dXJlIjoiWmpaak9UWmhNREJrWWpWa016WmtPR016TkdSaE5EUTFaamRoT0dKa09URTBZVFF6TUdRMU9BPT0ifQ==
+POST /createToken/ 200 540.769 ms - 204
+GET /assets/loader.gif 200 0.586 ms - 673
+GET /assets/star.svg 200 0.461 ms - 4753
+GET /assets/sound48.png 200 0.530 ms - 4851
+GET / 200 1.175 ms - 522
+GET /script.js 200 1.247 ms - 5566
+GET /erizo.js 200 0.582 ms - 430084
+Creating token. Request body:  { username: 'user',
+  role: 'presenter',
+  room: 'basicExampleRoom',
+  type: 'erizo',
+  mediaConfiguration: 'default' }
+Token created eyJ0b2tlbklkIjoiNWJkNTIzOGY0MzZkNjUyZmU1NjExMjAwIiwiaG9zdCI6IjE1MC4xMDkuNDIuMzg6ODA4MCIsInNlY3VyZSI6dHJ1ZSwic2lnbmF0dXJlIjoiWldZME1HSmtZakV4Wm1GbFltUXlOR0ppWmprM01tUm1ZVFF6T0dNMll6TTBNREk1T0RReU1BPT0ifQ==
+POST /createToken/ 200 8.532 ms - 204
+GET /assets/loader.gif 200 0.481 ms - 673
+GET /assets/star.svg 200 0.342 ms - 4753
+GET /assets/sound48.png 200 0.439 ms - 4851

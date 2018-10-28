@@ -30,7 +30,7 @@ class Worker : public std::enable_shared_from_this<Worker> {
  public:
   typedef std::unique_ptr<boost::asio::io_service::work> asio_worker;
   typedef std::function<void()> Task;
-  typedef std::function<bool()> ScheduledTask;
+  typedef std::function<bool()> cheduledSTask;
 
   explicit Worker(std::weak_ptr<Scheduler> scheduler,
                   std::shared_ptr<Clock> the_clock = std::make_shared<SteadyClock>());

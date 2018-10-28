@@ -1,0 +1,573 @@
+root@VM-0-12-ubuntu:/home/ubuntu/licode/scripts# . initLicode.sh
+1233
+1278
+Checking dir /home/ubuntu/licode/build/libdeps/nvm
+Running nvm
+Checking dir /home/ubuntu/licode/build/libdeps/nvm
+Running nvm
+Found '/home/ubuntu/licode/.nvmrc' with version <6.9.2>
+Now using node v6.9.2 (npm v3.10.9)
+Checking dir /home/ubuntu/licode/build/libdeps/nvm
+Running nvm
+2018-10-28 10:45:20.272  - INFO: CloudHandler - New erizocontroller ( 5bd522c0436d652fe56111fe ) in:  150.109.42.38
+2018-10-28 10:45:20.285  - INFO: ErizoController - message: succesfully added to cloudHandler
+Found '/home/ubuntu/licode/.nvmrc' with version <6.9.2>
+Now using node v6.9.2 (npm v3.10.9)
+[licode] Done, run ./scripts/initBasicExample.sh
+root@VM-0-12-ubuntu:/home/ubuntu/licode/erizo_controller# 2018-10-28 10:45:21.458  - INFO: ErizoAgent - message: launched new ErizoJS, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:45:21.675  - INFO: ErizoJS - message: Started, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076, isDebugMode: false
+2018-10-28 10:45:25.085  - WARN: CloudHandler - ErizoController 0  in  150.109.42.38 does not respond. Deleting it.
+2018-10-28 10:47:29.401  - INFO: ErizoController - message: socket connected, socketId: c9eeNxYfpJn_zB4BAAAA
+2018-10-28 10:47:29.448  - DEBUG: ErizoController - Channel - message: token received
+2018-10-28 10:47:29.457  - INFO: RPCPublic - message: consumed token, tokenId:  5bd5233e436d652fe56111ff , roomId: 5b9298eee97775563cdfffc4, serviceId: 5b9298352a891f5e4534e59e
+2018-10-28 10:47:29.462  - INFO: ErizoController - message: getting singlePC configuration, singlePc: false, global:
+2018-10-28 10:47:29.465  - INFO: ErizoController - message: client connected, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, singlePC: false
+2018-10-28 10:47:29.479  - INFO: ErizoController - Client - message: addPublisher requested, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa state: erizo, data: true, audio: true, video: true, label: fEpIQAHmr3VRX6ejkFDkcmdwXavFKPJpaPBV, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false
+2018-10-28 10:47:29.480  - INFO: RoomController - message: addPublisher, clientId 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 541731309162807940 state: erizo, data: true, audio: true, video: true, label: fEpIQAHmr3VRX6ejkFDkcmdwXavFKPJpaPBV, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false type: publisher
+2018-10-28 10:47:29.481  - INFO: EcCloudHandler - message: createErizoJS, agentId: ErizoAgent
+2018-10-28 10:47:29.484  - INFO: EcCloudHandler - message: createErizoJS success, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076, agentId: 23b66003-aa8f-aacc-0986-5115d2f3f5dc, internalId: 0
+2018-10-28 10:47:29.484  - INFO: RoomController - message: addPublisher erizoJs assigned, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076, streamId: 541731309162807940 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.488  - INFO: ErizoJSController - addPublisher, clientId 832bb101-6cf3-4cd1-8d89-a528e2302afa streamId 541731309162807940
+2018-10-28 10:47:29.490  - INFO: Client - message: getOrCreateConnection, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, singlePC: false
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.490  - INFO: Connection - message: constructor, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,522  - INFO [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: constructor, stunserver: , stunPort: 0, minPort: 0, maxPort: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,522  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: Created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.522  - INFO: Client - message: Adding connection to Client, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.523  - INFO: ErizoJSController - message: Adding publisher, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 541731309162807940 state: erizo, data: true, audio: true, video: true, label: fEpIQAHmr3VRX6ejkFDkcmdwXavFKPJpaPBV, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false, publicIP: 150.109.42.38, privateRegexp: [Object] type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.523  - INFO: Connection - message: addMediaStream, connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, mediaStreamId: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,524  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,542  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Adding mediaStream, id: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,546  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.547  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, status: 101 type: publisher
+2018-10-28 10:47:29.548  - INFO: ErizoController - Client - message: addPublisher, label: fEpIQAHmr3VRX6ejkFDkcmdwXavFKPJpaPBV, state: PUBLISHER_INITIAL, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 541731309162807940
+2018-10-28 10:47:29.549  - DEBUG: ErizoController - Client - Sending message back to the client 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,550  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback finished
+2018-10-28 10:47:29.551  - DEBUG: ErizoController - Client - Sending message back to the client 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.657  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,667  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,667  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: processing remote SDP
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,667  - WARN [0x7fe359128700] rtp.RtpExtensionProcessor - Unsupported extension http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,668  - WARN [0x7fe359128700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,668  - WARN [0x7fe359128700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,668  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Creating videoTransport, ufrag: GBnj, pass: OK4bioVOLeOJOssnsiyURd2v
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,668  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: constructor, transportName: video, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,679  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: creating active-client
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,679  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,679  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: starting ice
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,679  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: creating Nice Agent
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,679  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: ericqin creating Nice Agent v3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,680  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: adding stream, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,680  - DEBUG [0x7fe3197fa700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: starting g_main_loop, this: 0x7fe34c009220
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,680  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote credentials in constructor, ufrag:GBnj, pass:OK4bioVOLeOJOssnsiyURd2v
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,682  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote credentials, ufrag: GBnj, pass: OK4bioVOLeOJOssnsiyURd2v
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,682  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: gathering, this: 0x7fe34c009220
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,689  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Discovered New Candidate, candidate: a=candidate:1 1 udp 2013266431 172.19.0.12 55354 typ hostgeneration 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,689  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: gathering done, stream_id: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,689  - INFO [0x7fe359128700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: iceState transition, ice_config_.transport_name: video, iceState: initial, newIceState: cand_received, this: 0x7fe34c009220
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,689  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote SDP, stream: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,689  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote SDP, stream: 541731309162807940, stream_id: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,690  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:IceState, transportName: video, state: 1, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,690  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  transportName: video, new_state: 2
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,690  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Getting Local Sdp
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,690  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: processing local sdp, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,691  - DEBUG [0x7fe358927700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote SDP to stream, stream: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,699  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: processed local sdp, transportName: video, ufrag: jWGs, pass: ukqfTTsdA2jC9CCQsCqnuQ
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - INFO [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  newGlobalState: 103
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: SDP processed
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Getting Local Sdp
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: processing local sdp, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,700  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: processed local sdp, transportName: video, ufrag: jWGs, pass: ukqfTTsdA2jC9CCQsCqnuQ
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.700  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, status: 103 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,701  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback finished
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,701  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.701  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, status: 203 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,701  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: getting local SDPInfo
+2018-10-28 10:47:29,701  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: getting local SDPInfo stream not running, stream_id: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,708  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback finished
+2018-10-28 10:47:29.709  - DEBUG: ErizoController - Client - Sending message back to the client 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.794  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,794  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 35989typ host generation 0 ufrag GBnj network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,795  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,795  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 35989, priority: 2122260223, componentId: 1, ufrag: GBnj, pass: OK4bioVOLeOJOssnsiyURd2v
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.796  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,796  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 55021typ host generation 0 ufrag GBnj network-id 1 network-cost 10, mid: video, sdpMLine: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,797  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,797  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 55021, priority: 2122260223, componentId: 1, ufrag: GBnj, pass: OK4bioVOLeOJOssnsiyURd2v
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.798  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,798  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Adding remote Candidate, candidate: end, mid: end, sdpMLine: -1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,798  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: All candidates received
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,799  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: setting hasReceivedLastCandidate, hasReceived: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,821  - DEBUG [0x7fe3197fa700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,822  - INFO [0x7fe3197fa700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: iceState transition, ice_config_.transport_name: video, iceState: cand_received, newIceState: ready, this: 0x7fe34c009220
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,822  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:IceState, transportName: video, state: 2, isBundle: 1
+2018-10-28 10:47:29,822  - INFO [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: DTLSRTP Start, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,822  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,828  - DEBUG [0x7fe3197fa700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,836  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,837  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,852  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,855  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:HandShakeCompleted, transportName:video, readyRtp:1, readyRtcp:1
+2018-10-28 10:47:29,855  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  transportName: video, new_state: 3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,855  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: selected pair, local_addr: 172.19.0.12, local_port: 55354, local_type: host
+2018-10-28 10:47:29,855  - INFO [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: selected pair, remote_addr: 103.7.29.7, remote_port: 3385, remote_type: host
+2018-10-28 10:47:29,855  - INFO [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  newGlobalState: 104
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,855  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29.855  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, status: 104 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:29,856  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: eventsCallback finished
+2018-10-28 10:47:29.857  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa , roomId: 5b9298eee97775563cdfffc4 ,  onAddStream
+2018-10-28 10:47:29.857  - INFO: ErizoController - Client - message: addPublisher, state: PUBLISHER_READY, streamId: 541731309162807940, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+2018-10-28 10:47:29.857  - DEBUG: ErizoController - Client - Sending message back to the client 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:47:59,691  - INFO [0x7fe358927700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":30614,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":0,"isPublisher":1,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"publisher","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"541731309162807940","totalBitrate":337913,"videoBitrate":299972,"videoEnabled":1,"videoErizoRemb":813800,"videoFL":0,"videoFir":0,"videoJitter":0,"videoKeyFrames":1,"videoMuted":0,"videoNack":0,"videoPL":0,"videoPli":0,"videoRemb":0}
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:29,690  - INFO [0x7fe358927700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":29039,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":0,"isPublisher":1,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"publisher","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"541731309162807940","totalBitrate":333091,"videoBitrate":297225,"videoEnabled":1,"videoErizoRemb":813800,"videoFL":0,"videoFir":0,"videoJitter":0,"videoKeyFrames":1,"videoMuted":0,"videoNack":2,"videoPL":0,"videoPli":0,"videoRemb":0}
+2018-10-28 10:48:48.264  - INFO: ErizoController - message: socket connected, socketId: R9mnA7qWsMGGD0_5AAAB
+2018-10-28 10:48:48.347  - DEBUG: ErizoController - Channel - message: token received
+2018-10-28 10:48:48.351  - INFO: RPCPublic - message: consumed token, tokenId:  5bd5238f436d652fe5611200 , roomId: 5b9298eee97775563cdfffc4, serviceId: 5b9298352a891f5e4534e59e
+2018-10-28 10:48:48.354  - INFO: ErizoController - message: getting singlePC configuration, singlePc: false, global:
+2018-10-28 10:48:48.355  - INFO: ErizoController - message: client connected, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, singlePC: false
+2018-10-28 10:48:48.441  - INFO: ErizoController - Client - message: addPublisher requested, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d state: erizo, data: true, audio: true, video: true, label: ggeXcvH4pBnfw6a9DKxOcareM9fxNGigT6vQ, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false
+2018-10-28 10:48:48.441  - INFO: RoomController - message: addPublisher, clientId 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 419340649385837800 state: erizo, data: true, audio: true, video: true, label: ggeXcvH4pBnfw6a9DKxOcareM9fxNGigT6vQ, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false type: publisher
+2018-10-28 10:48:48.441  - INFO: EcCloudHandler - message: createErizoJS, agentId: ErizoAgent
+2018-10-28 10:48:48.445  - INFO: ErizoController - Client - message: addSubscriber requested, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+2018-10-28 10:48:48.445  - INFO: RoomController - message: addSubscriber, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 541731309162807940, audio: true, video: true, maxVideoBW: 300, data: true, browser: chrome-stable, metadata: [Object], muteStream: [Object], slideShowMode: false, mediaConfiguration: default, singlePC: false type: subscriber
+2018-10-28 10:48:48.446  - INFO: EcCloudHandler - message: createErizoJS success, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076, agentId: 23b66003-aa8f-aacc-0986-5115d2f3f5dc, internalId: 0
+2018-10-28 10:48:48.446  - INFO: RoomController - message: addPublisher erizoJs assigned, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076, streamId: 419340649385837800 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.447  - INFO: Client - message: getOrCreateConnection, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, singlePC: false
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.447  - INFO: Connection - message: constructor, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,447  - INFO [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: constructor, stunserver: , stunPort: 0, minPort: 0, maxPort: 0
+2018-10-28 10:48:48,447  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Created
+2018-10-28 10:48:48.447  - INFO: Client - message: Adding connection to Client, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.448  - INFO: Publisher - message: Adding subscriber, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 541731309162807940, audio: true, video: true, maxVideoBW: 300, data: true, browser: chrome-stable, metadata: [Object], muteStream: [Object], slideShowMode: false, mediaConfiguration: default, singlePC: false, publicIP: 150.109.42.38, privateRegexp: [Object], label: fEpIQAHmr3VRX6ejkFDkcmdwXavFKPJpaPBV type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.449  - INFO: Connection - message: addMediaStream, connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, mediaStreamId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,449  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,449  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Adding mediaStream, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.450  - INFO: Publisher - message: Mute Stream, video:  false , audio:  false
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.451  - INFO: ErizoJSController - addPublisher, clientId 6f7ade3d-7e0f-440d-9217-ccdf8b87550d streamId 419340649385837800
+2018-10-28 10:48:48.451  - INFO: Client - message: getOrCreateConnection, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, singlePC: false
+2018-10-28 10:48:48.451  - INFO: Connection - message: constructor, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2
+2018-10-28 10:48:48,451  - INFO [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: constructor, stunserver: , stunPort: 0, minPort: 0, maxPort: 0
+2018-10-28 10:48:48,451  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: Created
+2018-10-28 10:48:48.451  - INFO: Client - message: Adding connection to Client, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2
+2018-10-28 10:48:48.451  - INFO: ErizoJSController - message: Adding publisher, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 419340649385837800 state: erizo, data: true, audio: true, video: true, label: ggeXcvH4pBnfw6a9DKxOcareM9fxNGigT6vQ, screen: , metadata: [Object], muteStream: [Object], minVideoBW: 0, maxVideoBW: 300, mediaConfiguration: default, singlePC: false, publicIP: 150.109.42.38, privateRegexp: [Object] type: publisher
+2018-10-28 10:48:48.451  - INFO: Connection - message: addMediaStream, connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, mediaStreamId: 419340649385837800
+2018-10-28 10:48:48,451  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Created
+2018-10-28 10:48:48,451  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Adding mediaStream, id: 419340649385837800
+2018-10-28 10:48:48,452  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback
+2018-10-28 10:48:48.452  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, status: 101 type: subscriber
+2018-10-28 10:48:48,453  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback finished
+2018-10-28 10:48:48,453  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback
+2018-10-28 10:48:48.453  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, status: 101 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,456  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback finished
+2018-10-28 10:48:48.457  - INFO: ErizoController - Client - message: addSubscriber, state: SUBSCRIBER_INITIAL, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 541731309162807940
+2018-10-28 10:48:48.457  - INFO: ErizoController - Client - message: addPublisher, label: ggeXcvH4pBnfw6a9DKxOcareM9fxNGigT6vQ, state: PUBLISHER_INITIAL, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 419340649385837800
+2018-10-28 10:48:48.457  - DEBUG: ErizoController - Client - Sending message back to the client 419340649385837800
+2018-10-28 10:48:48.458  - DEBUG: ErizoController - Client - Sending message back to the client 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.640  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,642  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,642  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: processing remote SDP
+2018-10-28 10:48:48,642  - WARN [0x7fe353fff700] rtp.RtpExtensionProcessor - Unsupported extension http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+2018-10-28 10:48:48,642  - WARN [0x7fe353fff700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+2018-10-28 10:48:48,642  - WARN [0x7fe353fff700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+2018-10-28 10:48:48,642  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Creating videoTransport, ufrag: 6qep, pass: 46fDT5HfV0YvLktYkwjQnTpd
+2018-10-28 10:48:48,642  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: constructor, transportName: video, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: creating active-client
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: created
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: starting ice
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: creating Nice Agent
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: ericqin creating Nice Agent v3
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: adding stream, iceComponents: 1
+2018-10-28 10:48:48,643  - DEBUG [0x7fe318ff9700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: starting g_main_loop, this: 0x7fe340004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote credentials in constructor, ufrag:6qep, pass:46fDT5HfV0YvLktYkwjQnTpd
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote credentials, ufrag: 6qep, pass: 46fDT5HfV0YvLktYkwjQnTpd
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: gathering, this: 0x7fe340004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Discovered New Candidate, candidate: a=candidate:1 1 udp 2013266431 172.19.0.12 33189 typ hostgeneration 0
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: gathering done, stream_id: 1
+2018-10-28 10:48:48,643  - INFO [0x7fe353fff700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: iceState transition, ice_config_.transport_name: video, iceState: initial, newIceState: cand_received, this: 0x7fe340004e40
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote SDP, stream: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote SDP, stream: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, stream_id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:IceState, transportName: video, state: 1, isBundle: 1
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  transportName: video, new_state: 2
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Getting Local Sdp
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: processing local sdp, transportName: video
+2018-10-28 10:48:48,643  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: processed local sdp, transportName: video, ufrag: MOYl, pass: zlShwnMqxeRmxE6LU62Xsv
+2018-10-28 10:48:48,643  - INFO [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  newGlobalState: 103
+2018-10-28 10:48:48,644  - DEBUG [0x7fe3537fe700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote SDP to stream, stream: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+2018-10-28 10:48:48,644  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: SDP processed
+2018-10-28 10:48:48,644  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Getting Local Sdp
+2018-10-28 10:48:48,644  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: processing local sdp, transportName: video
+2018-10-28 10:48:48,644  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: processed local sdp, transportName: video, ufrag: MOYl, pass: zlShwnMqxeRmxE6LU62Xsv
+2018-10-28 10:48:48,644  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback
+2018-10-28 10:48:48.644  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, status: 103 type: subscriber
+2018-10-28 10:48:48.644  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, status: 203 type: subscriber
+2018-10-28 10:48:48,644  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: getting local SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,653  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: getting local SDPInfo, stream_id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, audio_ssrc: 1382187210
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,656  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback finished
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,692  - INFO [0x7fe358927700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":28874,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":0,"isPublisher":1,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"publisher","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"541731309162807940","totalBitrate":28874,"videoBitrate":0,"videoEnabled":1,"videoErizoRemb":813800,"videoFL":0,"videoFir":0,"videoJitter":0,"videoKeyFrames":1,"videoMuted":0,"videoNack":2,"videoPL":0,"videoPli":0,"videoRemb":0}
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.692  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,696  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,696  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: processing remote SDP
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,696  - WARN [0x7fe352ffd700] rtp.RtpExtensionProcessor - Unsupported extension http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - WARN [0x7fe352ffd700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - WARN [0x7fe352ffd700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Creating videoTransport, ufrag: R829, pass: A4udM8va5G6XW0RI2+M09Iee
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: constructor, transportName: video, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: creating active-client
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: starting ice
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,697  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: creating Nice Agent
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,698  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: ericqin creating Nice Agent v3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,698  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: adding stream, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,698  - DEBUG [0x7fe3187f8700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: starting g_main_loop, this: 0x7fe344004d70
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,698  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote credentials in constructor, ufrag:R829, pass:A4udM8va5G6XW0RI2+M09Iee
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,698  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote credentials, ufrag: R829, pass: A4udM8va5G6XW0RI2+M09Iee
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: gathering, this: 0x7fe344004d70
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Discovered New Candidate, candidate: a=candidate:1 1 udp 2013266431 172.19.0.12 40790 typ hostgeneration 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: gathering done, stream_id: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - INFO [0x7fe352ffd700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: iceState transition, ice_config_.transport_name: video, iceState: initial, newIceState: cand_received, this: 0x7fe344004d70
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote SDP, stream: 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote SDP, stream: 419340649385837800, stream_id: 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,699  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:IceState, transportName: video, state: 1, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  transportName: video, new_state: 2
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Getting Local Sdp
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: processing local sdp, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: processed local sdp, transportName: video, ufrag: BD5i, pass: OAdv0rZUOEdQ9IF6J6vKeK
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - INFO [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  newGlobalState: 103
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe3527fc700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote SDP to stream, stream: 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,700  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48.701  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, status: 103 type: publisher
+2018-10-28 10:48:48,701  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback finished
+2018-10-28 10:48:48,701  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: SDP processed
+2018-10-28 10:48:48,702  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Getting Local Sdp
+2018-10-28 10:48:48,702  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: processing local sdp, transportName: video
+2018-10-28 10:48:48,702  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: processed local sdp, transportName: video, ufrag: BD5i, pass: OAdv0rZUOEdQ9IF6J6vKeK
+2018-10-28 10:48:48,702  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback
+2018-10-28 10:48:48.702  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, status: 203 type: publisher
+2018-10-28 10:48:48,702  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: getting local SDPInfo
+2018-10-28 10:48:48,702  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: getting local SDPInfo stream not running, stream_id: 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:48,705  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback finished
+2018-10-28 10:48:48.706  - DEBUG: ErizoController - Client - Sending message back to the client 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.200  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,201  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 36104typ host generation 0 ufrag 6qep network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,201  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,201  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 36104, priority: 2122260223, componentId: 1, ufrag: 6qep, pass: 46fDT5HfV0YvLktYkwjQnTpd
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,270  - DEBUG [0x7fe318ff9700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+2018-10-28 10:48:49,270  - INFO [0x7fe318ff9700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: iceState transition, ice_config_.transport_name: video, iceState: cand_received, newIceState: ready, this: 0x7fe340004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,270  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:IceState, transportName: video, state: 2, isBundle: 1
+2018-10-28 10:48:49,270  - INFO [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: DTLSRTP Start, transportName: video
+2018-10-28 10:48:49,270  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.278  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,279  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 43351typ host generation 0 ufrag 6qep network-id 1 network-cost 10, mid: video, sdpMLine: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,279  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,280  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 43351, priority: 2122260223, componentId: 1, ufrag: 6qep, pass: 46fDT5HfV0YvLktYkwjQnTpd
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.280  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,280  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Adding remote Candidate, candidate: a=candidate:1179900785 1 udp 1686052607 103.7.29.7 3394 typ srflx raddr 10.66.237.18 rport 36104 generation 0 ufrag 6qep network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,281  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,281  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: adding relay or srflx remote candidate, hostType: 1, hostAddress: 103.7.29.7, hostPort: 3394,rAddress: 10.66.237.18, rPort: 36104
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.283  - INFO: ErizoJSController - message: Process Signaling message, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,283  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Adding remote Candidate, candidate: end, mid: end, sdpMLine: -1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,283  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: All candidates received
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,283  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: setting hasReceivedLastCandidate, hasReceived: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,285  - DEBUG [0x7fe318ff9700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,296  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,298  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.301  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,301  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 57057typ host generation 0 ufrag R829 network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,301  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,302  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 57057, priority: 2122260223, componentId: 1, ufrag: R829, pass: A4udM8va5G6XW0RI2+M09Iee
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.302  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,302  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 37982typ host generation 0 ufrag R829 network-id 1 network-cost 10, mid: video, sdpMLine: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,303  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,303  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 37982, priority: 2122260223, componentId: 1, ufrag: R829, pass: A4udM8va5G6XW0RI2+M09Iee
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.303  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,304  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Adding remote Candidate, candidate: a=candidate:1179900785 1 udp 1686052607 103.7.29.7 3400 typ srflx raddr 10.66.237.18 rport 57057 generation 0 ufrag R829 network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,304  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,304  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: adding relay or srflx remote candidate, hostType: 1, hostAddress: 103.7.29.7, hostPort: 3400,rAddress: 10.66.237.18, rPort: 57057
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.306  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,306  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Adding remote Candidate, candidate: end, mid: end, sdpMLine: -1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,306  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: All candidates received
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,306  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: setting hasReceivedLastCandidate, hasReceived: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,506  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,506  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:HandShakeCompleted, transportName:video, readyRtp:1, readyRtcp:1
+2018-10-28 10:48:49,506  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  transportName: video, new_state: 3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,507  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: selected pair, local_addr: 172.19.0.12, local_port: 33189, local_type: host
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,507  - INFO [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: selected pair, remote_addr: 103.7.29.7, remote_port: 2531, remote_type: host
+2018-10-28 10:48:49,507  - INFO [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  newGlobalState: 104
+2018-10-28 10:48:49,507  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49.507  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, status: 104 type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,508  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: eventsCallback finished
+2018-10-28 10:48:49.509  - INFO: ErizoController - Client - message: addSubscriber, state: SUBSCRIBER_READY, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:49,692  - WARN [0x7fe358927700] rtp.PliPacerHandler - id: 541731309162807940, role:publisher, type: publisher,  message: Timed out waiting for a keyframe
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,307  - DEBUG [0x7fe3187f8700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+2018-10-28 10:48:50,308  - INFO [0x7fe3187f8700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: iceState transition, ice_config_.transport_name: video, iceState: cand_received, newIceState: ready, this: 0x7fe344004d70
+2018-10-28 10:48:50,308  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:IceState, transportName: video, state: 2, isBundle: 1
+2018-10-28 10:48:50,308  - INFO [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: DTLSRTP Start, transportName: video
+2018-10-28 10:48:50,308  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,318  - DEBUG [0x7fe3187f8700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,322  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,324  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,341  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,341  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:HandShakeCompleted, transportName:video, readyRtp:1, readyRtcp:1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,341  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  transportName: video, new_state: 3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,341  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: selected pair, local_addr: 172.19.0.12, local_port: 40790, local_type: host
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,341  - INFO [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: selected pair, remote_addr: 103.7.29.7, remote_port: 2532, remote_type: host
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,342  - INFO [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  newGlobalState: 104
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,342  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.342  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, status: 104 type: publisher
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,344  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: eventsCallback finished
+2018-10-28 10:48:50.344  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa , roomId: 5b9298eee97775563cdfffc4 ,  onAddStream
+2018-10-28 10:48:50.345  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d , roomId: 5b9298eee97775563cdfffc4 ,  onAddStream
+2018-10-28 10:48:50.345  - INFO: ErizoController - Client - message: addPublisher, state: PUBLISHER_READY, streamId: 419340649385837800, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+2018-10-28 10:48:50.345  - DEBUG: ErizoController - Client - Sending message back to the client 419340649385837800
+2018-10-28 10:48:50.374  - INFO: ErizoController - Client - message: addSubscriber requested, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+2018-10-28 10:48:50.374  - INFO: RoomController - message: addSubscriber, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 419340649385837800, audio: true, video: true, maxVideoBW: 300, data: true, browser: chrome-stable, metadata: [Object], muteStream: [Object], slideShowMode: false, mediaConfiguration: default, singlePC: false type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.375  - INFO: Client - message: getOrCreateConnection, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, singlePC: false
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.375  - INFO: Connection - message: constructor, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,375  - INFO [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: constructor, stunserver: , stunPort: 0, minPort: 0, maxPort: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,375  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.376  - INFO: Client - message: Adding connection to Client, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.376  - INFO: Publisher - message: Adding subscriber, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 419340649385837800, audio: true, video: true, maxVideoBW: 300, data: true, browser: chrome-stable, metadata: [Object], muteStream: [Object], slideShowMode: false, mediaConfiguration: default, singlePC: false, publicIP: 150.109.42.38, privateRegexp: [Object], label: ggeXcvH4pBnfw6a9DKxOcareM9fxNGigT6vQ type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.376  - INFO: Connection - message: addMediaStream, connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, mediaStreamId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Created
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,376  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Adding mediaStream, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.377  - INFO: Publisher - message: Mute Stream, video:  false , audio:  false
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,378  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback
+2018-10-28 10:48:50.378  - INFO: ErizoController - Client - message: addSubscriber, state: SUBSCRIBER_INITIAL, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.378  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, status: 101 type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,379  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback finished
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.421  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: processing remote SDP
+2018-10-28 10:48:50,423  - WARN [0x7fe351ffb700] rtp.RtpExtensionProcessor - Unsupported extension http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+2018-10-28 10:48:50,423  - WARN [0x7fe351ffb700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+2018-10-28 10:48:50,423  - WARN [0x7fe351ffb700] rtp.RtpExtensionProcessor - Unsupported extension http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Creating videoTransport, ufrag: 5XDu, pass: mSFAZ0SsLQ62LewRVS0pHEvt
+2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: constructor, transportName: video, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: creating active-client
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: created
+2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: starting ice
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,423  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: creating Nice Agent
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: ericqin creating Nice Agent v3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: adding stream, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote credentials in constructor, ufrag:5XDu, pass:mSFAZ0SsLQ62LewRVS0pHEvt
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote credentials, ufrag: 5XDu, pass: mSFAZ0SsLQ62LewRVS0pHEvt
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: gathering, this: 0x7fe32c004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe317ff7700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: starting g_main_loop, this: 0x7fe32c004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Discovered New Candidate, candidate: a=candidate:1 1 udp 2013266431 172.19.0.12 47414 typ hostgeneration 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: gathering done, stream_id: 1
+2018-10-28 10:48:50,424  - INFO [0x7fe351ffb700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: iceState transition, ice_config_.transport_name: video, iceState: initial, newIceState: cand_received, this: 0x7fe32c004e40
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote SDP, stream: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote SDP, stream: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, stream_id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:IceState, transportName: video, state: 1, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  transportName: video, new_state: 2
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Getting Local Sdp
+2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: processing local sdp, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: processed local sdp, transportName: video, ufrag: XJ8z, pass: cEe2mFjJyG6TEDoiuOuVGU
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - INFO [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  newGlobalState: 103
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,424  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.424  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, status: 103 type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe3517fa700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote SDP to stream, stream: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: SDP processed
+2018-10-28 10:48:50,425  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Getting Local Sdp
+2018-10-28 10:48:50,425  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: processing local sdp, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: processed local sdp, transportName: video, ufrag: XJ8z, pass: cEe2mFjJyG6TEDoiuOuVGU
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback finished
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.425  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, status: 203 type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: getting local SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,425  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: getting local SDPInfo, stream_id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, audio_ssrc: 831173108
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,427  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback finished
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.703  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,703  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 39425typ host generation 0 ufrag 5XDu network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,703  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,703  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 39425, priority: 2122260223, componentId: 1, ufrag: 5XDu, pass: mSFAZ0SsLQ62LewRVS0pHEvt
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.714  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,714  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Adding remote Candidate, candidate: a=candidate:2957222565 1 udp 2122260223 10.66.237.18 49417typ host generation 0 ufrag 5XDu network-id 1 network-cost 10, mid: video, sdpMLine: 1
+2018-10-28 10:48:50,714  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+2018-10-28 10:48:50,714  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: adding remote candidate, hostType: 0, hostAddress: 10.66.237.18, hostPort: 49417, priority: 2122260223, componentId: 1, ufrag: 5XDu, pass:mSFAZ0SsLQ62LewRVS0pHEvt
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.715  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,715  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Adding remote Candidate, candidate: a=candidate:1179900785 1 udp 1686052607 103.7.29.7 3410 typ srflx raddr 10.66.237.18 rport 39425 generation 0 ufrag 5XDu network-id 1 network-cost 10, mid: audio, sdpMLine: 0
+2018-10-28 10:48:50,715  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting remote candidates, candidateSize: 1, mediaType: 0
+2018-10-28 10:48:50,715  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: adding relay or srflx remote candidate, hostType: 1, hostAddress: 103.7.29.7, hostPort: 3410, rAddress: 10.66.237.18, rPort: 39425
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.720  - INFO: ErizoJSController - message: Process Signaling message, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,720  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Adding remote Candidate, candidate: end, mid: end, sdpMLine: -1
+2018-10-28 10:48:50,720  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: All candidates received
+2018-10-28 10:48:50,720  - DEBUG [0x7fe36e846780] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: setting hasReceivedLastCandidate, hasReceived: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,743  - DEBUG [0x7fe317ff7700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,744  - INFO [0x7fe317ff7700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: iceState transition, ice_config_.transport_name: video, iceState: cand_received, newIceState: ready, this: 0x7fe32c004e40
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,744  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:IceState, transportName: video, state: 2, isBundle: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,744  - INFO [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: DTLSRTP Start, transportName: video
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,744  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,755  - DEBUG [0x7fe317ff7700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: new ice component state, newState: 2, transportName: video, componentId 1, iceComponents: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,761  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,763  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Sending DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,781  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Received DTLS message, transportName: video, componentId: 1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:HandShakeCompleted, transportName:video, readyRtp:1, readyRtcp:1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  transportName: video, new_state: 3
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: selected pair, local_addr: 172.19.0.12, local_port: 47414, local_type: host
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - INFO [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: selected pair, remote_addr: 103.7.29.7, remote_port: 2541, remote_type: host
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - INFO [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  newGlobalState: 104
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,782  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50.783  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, status: 104 type: subscriber
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:48:50,785  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: eventsCallback finished
+2018-10-28 10:48:50.785  - INFO: ErizoController - Client - message: addSubscriber, state: SUBSCRIBER_READY, streamId: 419340649385837800, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:18,644  - INFO [0x7fe3527fc700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":0,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":0,"isPublisher":1,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"publisher","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"419340649385837800","totalBitrate":308848,"videoBitrate":308848,"videoEnabled":1,"videoErizoRemb":502108,"videoFL":0,"videoFir":0,"videoJitter":0,"videoKeyFrames":2,"videoMuted":0,"videoNack":2,"videoPL":0,"videoPli":1,"videoRemb":0}
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:18,644  - INFO [0x7fe3537fe700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":29723,"audioEnabled":1,"audioFL":1,"audioJitter":193,"audioMuted":0,"audioNack":0,"audioPL":2,"audioRemb":0,"bwe":0,"isPublisher":0,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"subscriber","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940","totalBitrate":29723,"videoBitrate":0,"videoEnabled":1,"videoErizoRemb":0,"videoFL":0,"videoFir":0,"videoJitter":0,"videoKeyFrames":0,"videoMuted":0,"videoNack":0,"videoPL":0,"videoPli":0,"videoRemb":0}
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:20,296  - INFO [0x7fe3517fa700] StreamStats - {"SL0TL0":305005,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":0,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":300000,"isPublisher":0,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"subscriber","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800","totalBitrate":299420,"videoBitrate":299420,"videoEnabled":1,"videoErizoRemb":0,"videoFL":0,"videoFir":0,"videoJitter":1527,"videoKeyFrames":1,"videoMuted":0,"videoNack":1,"videoPL":0,"videoPli":2,"videoRemb":0}
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:27,856  - WARN [0x7fe3527fc700] rtp.PliPacerHandler - id: 419340649385837800, role:publisher, type: publisher,  message: Timed out waiting for a keyframe
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:29,691  - INFO [0x7fe358927700] StreamStats - {"SL0TL0":0,"SL0TL1":0,"SL0TL2":0,"SL0TL3":0,"SL1TL0":0,"SL1TL1":0,"SL1TL2":0,"SL1TL3":0,"SL2TL0":0,"SL2TL1":0,"SL2TL2":0,"SL2TL3":0,"SL3TL0":0,"SL3TL1":0,"SL3TL2":0,"SL3TL3":0,"audioBitrate":29930,"audioEnabled":1,"audioFL":0,"audioJitter":0,"audioMuted":0,"audioNack":0,"audioPL":0,"audioRemb":0,"bwe":0,"isPublisher":1,"maxActiveSL":0,"maxActiveTL":0,"maxVideoBW":300000,"metadata-type":"publisher","paddingBitrate":0,"rtxBitrate":0,"selectedSL":0,"selectedTL":0,"slideshow":0,"streamId":"541731309162807940","totalBitrate":332736,"videoBitrate":313920,"videoEnabled":1,"videoErizoRemb":878904,"videoFL":0,"videoFir":3,"videoJitter":0,"videoKeyFrames":2,"videoMuted":0,"videoNack":2,"videoPL":0,"videoPli":1,"videoRemb":0}
+2018-10-28 10:49:47.373  - DEBUG: ErizoController - Channel - message: socket disconnected, code: 1001
+2018-10-28 10:49:47.373  - INFO: ErizoController - Client - message: Channel disconnect, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d , channelId: b5f723b1-2b3b-4e6d-9a96-08e112fab529
+2018-10-28 10:49:47.373  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa , roomId: 5b9298eee97775563cdfffc4 ,  onRemoveStream
+2018-10-28 10:49:47.374  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d , roomId: 5b9298eee97775563cdfffc4 ,  onRemoveStream
+2018-10-28 10:49:47.374  - INFO: RoomController - message: removeSubscriptions, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+2018-10-28 10:49:47.375  - INFO: ErizoController - Client - message: Unpublishing stream, streamId: 419340649385837800
+2018-10-28 10:49:47.376  - INFO: RoomController - message: removePublisher, streamId: 419340649385837800, erizoId: ErizoJS_2fed50c6-76ad-4aaa-9cef-f9579218d076
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.376  - INFO: ErizoJSController - message: removing subscriber, streamId: 541731309162807940, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Trying to close
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Closing
+2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Closing Stats handle
+2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Closing MediaStreamEvent handle
+2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, message: Closed
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: getting local SDPInfo
+2018-10-28 10:49:47,376  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: getting local SDPInfo, stream_id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940, audio_ssrc: 1382187210
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.378  - INFO: Client - message: closing empty connection, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1
+2018-10-28 10:49:47.378  - INFO: Connection - message: Closing connection 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1
+2018-10-28 10:49:47.379  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, status: 105, type: subscriber
+2018-10-28 10:49:47,379  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Trying to close
+2018-10-28 10:49:47,379  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Closing
+2018-10-28 10:49:47,379  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Async close called
+2018-10-28 10:49:47,379  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Closing handle
+2018-10-28 10:49:47,379  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Closed
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: removing mediaStream, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_541731309162807940
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Close called
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: closing
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:closing
+2018-10-28 10:49:47,379  - INFO [0x7fe353fff700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: iceState transition, ice_config_.transport_name: video, iceState: ready, newIceState: finished, this: 0x7fe340004e40
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:main loop quit
+2018-10-28 10:49:47,379  - DEBUG [0x7fe318ff9700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: finished g_main_loop, this: 0x7fe340004e40
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: m_thread join, this: 0x7fe340004e40
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:Unrefing loop
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: unrefing agent
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Unrefing context
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: closed, this: 0x7fe340004e40
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: closed
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Close ended
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message:Destructor called
+2018-10-28 10:49:47,379  - DEBUG [0x7fe353fff700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1,  message: Destructor ended
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.380  - INFO: ErizoJSController - message: Removing publisher, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d, streamId: 419340649385837800
+2018-10-28 10:49:47.380  - INFO: ErizoJSController - message: Removing subscriber, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+2018-10-28 10:49:47,380  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: removing mediaStream, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Trying to close
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Closing
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Closing Stats handle
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Closing MediaStreamEvent handle
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_419340649385837800, message: Closed
+2018-10-28 10:49:47,380  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: getting local SDPInfo
+2018-10-28 10:49:47.382  - INFO: Client - message: closing empty connection, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2
+2018-10-28 10:49:47.382  - INFO: Connection - message: Closing connection 832bb101-6cf3-4cd1-8d89-a528e2302afa_2
+2018-10-28 10:49:47.382  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2, status: 105, type: subscriber
+2018-10-28 10:49:47,382  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Trying to close
+2018-10-28 10:49:47,382  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Closing
+2018-10-28 10:49:47,382  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Async close called
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Close called
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: closing
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:closing
+2018-10-28 10:49:47,382  - INFO [0x7fe351ffb700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: iceState transition, ice_config_.transport_name: video, iceState: ready, newIceState: finished, this: 0x7fe32c004e40
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:main loop quit
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: m_thread join, this: 0x7fe32c004e40
+2018-10-28 10:49:47,382  - DEBUG [0x7fe317ff7700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: finished g_main_loop, this: 0x7fe32c004e40
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:Unrefing loop
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: unrefing agent
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Unrefing context
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: closed, this: 0x7fe32c004e40
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: closed
+2018-10-28 10:49:47,382  - DEBUG [0x7fe351ffb700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Close ended
+2018-10-28 10:49:47,382  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Closing handle
+2018-10-28 10:49:47,383  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Closed
+2018-10-28 10:49:47,383  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Trying to close
+2018-10-28 10:49:47,383  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Closing
+2018-10-28 10:49:47,384  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Closing Stats handle
+2018-10-28 10:49:47,384  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Closing MediaStreamEvent handle
+2018-10-28 10:49:47,384  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 419340649385837800, message: Closed
+2018-10-28 10:49:47,384  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: getting local SDPInfo
+2018-10-28 10:49:47,384  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: getting local SDPInfo stream not running, stream_id: 419340649385837800
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Trying to close
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Already closed
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_1, message: Destroyed
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Trying to close
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Already closed
+2018-10-28 10:49:47,386  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_2, message: Destroyed
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,386  - DEBUG [0x7fe3517fa700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message:Destructor called
+2018-10-28 10:49:47,386  - DEBUG [0x7fe3517fa700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_2,  message: Destructor ended
+2018-10-28 10:49:47,386  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: removing mediaStream, id: 419340649385837800
+2018-10-28 10:49:47.387  - INFO: Client - message: closing empty connection, clientId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d connectionId: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2
+2018-10-28 10:49:47.387  - INFO: Connection - message: Closing connection 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2
+2018-10-28 10:49:47.387  - INFO: Connection - message: WebRtcConnection status update, id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, status: 105, type: publisher
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: Trying to close
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: Closing
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Async close called
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Close called
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: closing
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:closing
+2018-10-28 10:49:47,388  - INFO [0x7fe352ffd700] IceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: iceState transition, ice_config_.transport_name: video, iceState: ready, newIceState: finished, this: 0x7fe344004d70
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:main loop quit
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: m_thread join, this: 0x7fe344004d70
+2018-10-28 10:49:47,388  - DEBUG [0x7fe3187f8700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: finished g_main_loop, this: 0x7fe344004d70
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:Unrefing loop
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: unrefing agent
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Unrefing context
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] LibNiceConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: closed, this: 0x7fe344004d70
+2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] DtlsTransport - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: closed
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,388  - DEBUG [0x7fe352ffd700] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Close ended
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message:Destructor called
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2,  message: Destructor ended
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: Closing handle
+2018-10-28 10:49:47,388  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:6f7ade3d-7e0f-440d-9217-ccdf8b87550d_2, message: Closed
+2018-10-28 10:49:47.388  - INFO: ErizoJSController - message: muxer closed succesfully, id: 419340649385837800 OK
+2018-10-28 10:49:47.389  - DEBUG: ErizoController - Client - Sending message back to the client 419340649385837800
+2018-10-28 10:49:47.420  - DEBUG: ErizoController - Channel - message: socket disconnected, code: 1001
+2018-10-28 10:49:47.420  - INFO: ErizoController - Client - message: Channel disconnect, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa , channelId: 1197ffe1-4e1c-47d9-a3d5-5867fbdbabd0
+2018-10-28 10:49:47.420  - DEBUG: ErizoController - Room - message: sendMsgToRoom, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa , roomId: 5b9298eee97775563cdfffc4 ,  onRemoveStream
+2018-10-28 10:49:47.420  - INFO: RoomController - message: removeSubscriptions, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa
+2018-10-28 10:49:47.421  - INFO: ErizoController - Client - message: Unpublishing stream, streamId: 541731309162807940
+2018-10-28 10:49:47.421  - INFO: RoomController - message: removePublisher, streamId: 541731309162807940, erizoId: ErizoJS_2fed50c6-76ad-4aaa-9cef-f9579218d076
+2018-10-28 10:49:47.421  - DEBUG: ErizoController - Room - message: deleting empty room, roomId: 5b9298eee97775563cdfffc4
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.422  - INFO: ErizoJSController - message: Removing publisher, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa, streamId: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,422  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: removing mediaStream, id: 541731309162807940
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Trying to close
+2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Closing
+2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Closing Stats handle
+2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Closing MediaStreamEvent handle
+2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] ErizoAPI.MediaStream - id: 541731309162807940, message: Closed
+2018-10-28 10:49:47,422  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: getting local SDPInfo
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.423  - INFO: Client - message: closing empty connection, clientId: 832bb101-6cf3-4cd1-8d89-a528e2302afa connectionId: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.423  - INFO: Connection - message: Closing connection 832bb101-6cf3-4cd1-8d89-a528e2302afa_1
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.423  - INFO: Connection - message: WebRtcConnection status update, id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1, status: 105, type: publisher
+2018-10-28 10:49:47,423  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: Trying to close
+2018-10-28 10:49:47,423  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: Closing
+2018-10-28 10:49:47,423  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Async close called
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Close called
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: closing
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:closing
+2018-10-28 10:49:47,423  - INFO [0x7fe359128700] IceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: iceState transition, ice_config_.transport_name: video, iceState: ready, newIceState: finished, this: 0x7fe34c009220
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:main loop quit
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: m_thread join, this: 0x7fe34c009220
+2018-10-28 10:49:47,423  - DEBUG [0x7fe3197fa700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: finished g_main_loop, this: 0x7fe34c009220
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:Unrefing loop
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: unrefing agent
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Unrefing context
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] LibNiceConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: closed, this: 0x7fe34c009220
+2018-10-28 10:49:47,423  - DEBUG [0x7fe359128700] DtlsTransport - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: closed
+2018-10-28 10:49:47,424  - DEBUG [0x7fe359128700] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Close ended
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47,424  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message:Destructor called
+2018-10-28 10:49:47,424  - DEBUG [0x7fe36e846780] WebRtcConnection - id: 832bb101-6cf3-4cd1-8d89-a528e2302afa_1,  message: Destructor ended
+2018-10-28 10:49:47,424  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: Closing handle
+2018-10-28 10:49:47,424  - DEBUG [0x7fe36e846780] ErizoAPI.WebRtcConnection - id:832bb101-6cf3-4cd1-8d89-a528e2302afa_1, message: Closed
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.424  - INFO: ErizoJSController - message: muxer closed succesfully, id: 541731309162807940 OK
+[erizo-2fed50c6-76ad-4aaa-9cef-f9579218d076] 2018-10-28 10:49:47.424  - INFO: ErizoJSController - message: Removed all publishers. Killing process.
+2018-10-28 10:49:47.424  - DEBUG: ErizoController - Client - Sending message back to the client 541731309162807940
+2018-10-28 10:49:47.446  - INFO: ErizoAgent - message: closed, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076
+2018-10-28 10:49:47.448  - INFO: ErizoAgent - message: launched new ErizoJS, erizoId: da6c2da5-edfd-73a5-5e45-d10ec282be26
+[erizo-da6c2da5-edfd-73a5-5e45-d10ec282be26] 2018-10-28 10:49:47.650  - INFO: ErizoJS - message: Started, erizoId: da6c2da5-edfd-73a5-5e45-d10ec282be26, isDebugMode: false
+2018-10-28 10:49:59.515  - INFO: EcCloudHandler - message: deleting erizoJS, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076
+2018-10-28 10:50:09.518  - INFO: EcCloudHandler - message: deleting erizoJS, erizoId: 2fed50c6-76ad-4aaa-9cef-f9579218d076
