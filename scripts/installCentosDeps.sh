@@ -89,9 +89,9 @@ yum install -y cmake
 }
 install_gcc(){
   cd $LIB_DIR
-  wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.2.0/gcc-5.2.0.tar.gz
-  tar -zxvf gcc-5.2.0.tar.gz
-  cd gcc-5.2.0
+  wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.4.0/gcc-5.4.0.tar.gz
+  tar -zxvf gcc-5.4.0.tar.gz
+  cd gcc-5.4.0
   ./contrib/download_prerequisites
   ./configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
   make -j4
