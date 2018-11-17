@@ -70,6 +70,7 @@ install_nvm_node() {
 
 install_apt_deps(){
   install_nvm_node
+  install_gcc
   nvm use
   npm install
   npm install -g node-gyp
@@ -82,10 +83,22 @@ yum install -y devtoolset-2-gcc devtoolset-2-binutils
 yum install -y devtoolset-2-gcc-c++
 yum install -y openssl-devel
 yum install -y boost-devel
+yum install -y cmake
 
   sudo chown -R `whoami` ~/.npm ~/tmp/ || true
 }
+install_gcc(){
+  cd $LIB_DIR
+  wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.2.0/gcc-5.2.0.tar.gz
+  tar -zxvf gcc-5.2.0.tar.gz
+  cd gcc-5.2.0
+  ./contrib/download_prerequisites
+  ./configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+  make -j4
+  make install
+  cd $CURRENT_DIR
 
+}
 download_openssl() {
   OPENSSL_VERSION=$1
   OPENSSL_MAJOR="${OPENSSL_VERSION%?}"
