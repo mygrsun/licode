@@ -93,7 +93,7 @@ install_gcc(){
   tar -zxvf gcc-5.4.0.tar.gz
   cd gcc-5.4.0
   ./contrib/download_prerequisites
-  ./configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+  ./configure --prefix=/usr/local/gcc5.4 --enable-checking=release --enable-languages=c,c++ --disable-multilib
   make -j4
   make install
   cd $CURRENT_DIR
