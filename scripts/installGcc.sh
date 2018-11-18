@@ -90,8 +90,8 @@ yum install -y libgnomeui-devel
   sudo chown -R `whoami` ~/.npm ~/tmp/ || true
 }
 install_gcc(){
-yum install gcc
-yum install gcc-c++
+yum install -y gcc
+yum install -y gcc-c++
   cd $LIB_DIR
   wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.4.0/gcc-5.4.0.tar.gz
   tar -zxvf gcc-5.4.0.tar.gz
