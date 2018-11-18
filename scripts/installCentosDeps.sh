@@ -84,6 +84,8 @@ yum install -y devtoolset-2-gcc-c++
 yum install -y openssl-devel
 yum install -y boost-devel
 yum install -y cmake
+yum install -y doxygen
+yum install -y libgnomeui-devel
 
   sudo chown -R `whoami` ~/.npm ~/tmp/ || true
 }

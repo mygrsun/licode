@@ -16,7 +16,7 @@ generateVersion() {
     mkdir -p $BIN_DIR
     cd $BIN_DIR
   fi
-  cmake ../../src "-DERIZO_BUILD_TYPE=$1"
+  cmake -D CMAKE_C_COMPILER=/usr/local/gcc5.4/bin/gcc -D CMAKE_CXX_COMPILER=/usr/local/gcc5.4/bin/g++ ../../src "-DERIZO_BUILD_TYPE=$1"
   cd $PATHNAME
 }
 
