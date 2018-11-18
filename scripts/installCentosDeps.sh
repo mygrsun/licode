@@ -88,6 +88,7 @@ yum install -y cmake
   sudo chown -R `whoami` ~/.npm ~/tmp/ || true
 }
 install_gcc(){
+yum install gcc-c++
   cd $LIB_DIR
   wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.4.0/gcc-5.4.0.tar.gz
   tar -zxvf gcc-5.4.0.tar.gz
@@ -96,6 +97,8 @@ install_gcc(){
   ./configure --prefix=/usr/local/gcc5.4 --enable-checking=release --enable-languages=c,c++ --disable-multilib
   make -j4
   make install
+export PATH=/usr/local/gcc5.4/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/gcc5.4/lib:$LD_LIBRARY_PATH
   cd $CURRENT_DIR
 
 }
