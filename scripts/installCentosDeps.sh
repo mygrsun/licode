@@ -70,7 +70,7 @@ install_nvm_node() {
 
 install_apt_deps(){
   install_nvm_node
-  install_gcc
+#  install_gcc
   nvm use
   npm install
   npm install -g node-gyp
@@ -254,18 +254,12 @@ parse_arguments $*
 mkdir -p $PREFIX_DIR
 
 install_apt_deps
-read name
 check_proxy
-read name
 install_openssl
-read name
 install_libnice
-read name
 install_libsrtp
-read name
 
 install_opus
-read name
 if [ "$ENABLE_GPL" = "true" ]; then
   install_mediadeps
 else
